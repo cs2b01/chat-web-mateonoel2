@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+</head>
+<body>
+<select name= users method="GET" action="/">
+    {% for user in users %}
+    <option value= "{{user}}" SELECTED>{{user}}</option>"
+    {% endfor %}
+</select>
+
+</body>
+</html>
